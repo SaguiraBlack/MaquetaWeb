@@ -21,12 +21,12 @@
     <section>
         <div class="container2">
             <article class="img">
-                <img src="img/galaxy-s8-plus-rosa-2.jpg" alt="Samsung Galaxy S8" id="img">
+                <img src="img/cel5.jpg" alt="Samsung Galaxy S8" id="img">
             </article>
             <article>
                 <h2 id="titulo">Samsung Galaxy S8</h2><br>
-                <h4>Marca: Samsung</h4><br>
-                <h3>$6999.00 MXN</h3><br><br>
+                <h4 id="marca">Marca: Samsung</h4><br>
+                <h3 id="precio">$6999.00 MXN</h3><br><br>
                 <ul>
                     <li>
                         Sistema operativo Android
@@ -39,7 +39,7 @@
                     </li>
                 </ul>
                 <div class="divbtn">
-                    <button>
+                    <button onclick="gracias()">
                         Comprar Ahora
                     </button>
                 </div>
@@ -61,24 +61,29 @@
             <h5>Productos similares</h5>
             <article class="products">
                 <div class="celitem">
-                    <img src="img/cel1.jpg" class="cel" id="cel1" onclick="cambio('cel1')">
-                    <label>Texto de prueba</label>
+                    <img src="img/cel1.jpg" class="cel" id="cel1" onclick="cambio(0)">
+                    <label>Xiaomi Redmi Note</label>
+                    <label class="precio">$4689.00 MXN</label>
                 </div>
                 <div class="celitem">
-                    <img src="img/cel2.jpg" class="cel" id="cel2" onclick="cambio('cel2')"><br>
-                    <label>Texto de prueba</label>
+                    <img src="img/cel2.jpg" class="cel" id="cel2" onclick="cambio(1)">
+                    <label>Xiaomi Redmi 9</label>
+                    <label class="precio">$4098.00 MXN</label>
                 </div>
                 <div class="celitem">
-                    <img src="img/cel3.jpg" class="cel" id="cel3" onclick="cambio('cel3')"><br>
-                    <label>Texto de prueba</label>
+                    <img src="img/cel3.jpg" class="cel" id="cel3" onclick="cambio(2)">
+                    <label>Smartphone Redmi Note</label>
+                    <label class="precio">$3749.00 MXN</label>
                 </div>
                 <div class="celitem">
-                    <img src="img/cel4.jpg" class="cel" id="cel4" onclick="cambio('cel4')"><br>
-                    <label>Texto de prueba</label>
+                    <img src="img/cel4.jpg" class="cel" id="cel4" onclick="cambio(3)">
+                    <label>Samsung Galaxy A21s</label>
+                    <label class="precio">$4747.00 MXN</label>
                 </div>
                 <div class="celitem">
-                    <img src="img/galaxy-s8-plus-rosa-2.jpg" class="cel" id="celOriginal" onclick="cambio('celOriginal')"><br>
-                    <label>Texto de prueba</label>
+                    <img src="img/cel5.jpg" class="cel" id="cel5" onclick="cambio(4)"><br>
+                    <label>Samsung Galaxy S8</label>
+                    <label class="precio">$6999.00 MXN</label>
                 </div>
             </article>
         </div>
