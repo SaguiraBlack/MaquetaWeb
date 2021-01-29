@@ -3,7 +3,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+   /* box-sizing: border-box;*/
 }
 
 body{
@@ -108,13 +108,24 @@ h5{
     margin-left: 2rem;
 }
 
+.celitem{
+    display: block;
+}
+
 .products{
     margin: auto;
     text-align: center;
 }
 
+.cel{
+    margin: auto;
+    height: 15rem;
+}
+
 .cel:hover{
     cursor: pointer;
+    border-width: 2rem;
+    border-color: aquamarine;
 }
 
 .pie{

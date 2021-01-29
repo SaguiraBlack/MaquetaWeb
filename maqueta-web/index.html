@@ -60,10 +60,26 @@
         <div>
             <h5>Productos similares</h5>
             <article class="products">
-                <img src="img/cel1.jpg" class="cel">
-                <img src="img/cel2.jpg" class="cel">
-                <img src="img/cel3.jpg" class="cel">
-                <img src="img/cel4.jpg" class="cel">
+                <div class="celitem">
+                    <img src="img/cel1.jpg" class="cel" id="cel1" onclick="cambio('cel1')">
+                    <label>Texto de prueba</label>
+                </div>
+                <div class="celitem">
+                    <img src="img/cel2.jpg" class="cel" id="cel2" onclick="cambio('cel2')"><br>
+                    <label>Texto de prueba</label>
+                </div>
+                <div class="celitem">
+                    <img src="img/cel3.jpg" class="cel" id="cel3" onclick="cambio('cel3')"><br>
+                    <label>Texto de prueba</label>
+                </div>
+                <div class="celitem">
+                    <img src="img/cel4.jpg" class="cel" id="cel4" onclick="cambio('cel4')"><br>
+                    <label>Texto de prueba</label>
+                </div>
+                <div class="celitem">
+                    <img src="img/galaxy-s8-plus-rosa-2.jpg" class="cel" id="celOriginal" onclick="cambio('celOriginal')"><br>
+                    <label>Texto de prueba</label>
+                </div>
             </article>
         </div>
     </section>
@@ -75,5 +91,6 @@
             </div>
         </footer>
     </section>
+    <script src="js/cambio.js"></script>
 </body>
 </html>
